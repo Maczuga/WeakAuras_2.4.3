@@ -24,7 +24,7 @@ _G.LOCALIZED_CLASS_NAMES_MALE = {
 WeakAuras.function_strings = {
   count = [[
 return function(count)
-  if(c %s %s) then
+  if(count %s %s) then
     return true
   else
     return false
